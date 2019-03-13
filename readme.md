@@ -1,5 +1,11 @@
 ﻿lesson1
 =======
 
-*python
-*matlab
+#python
+
+#matlab
+
+```
+a=b+1
+
+```
