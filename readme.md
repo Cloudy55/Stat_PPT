@@ -1,11 +1,1 @@
-﻿lesson1
-=======
-
-## python
-
-### matlab
-
-```
-a=b+1
-
-```
+## My PPT for Python, Git, Linux, etc.
