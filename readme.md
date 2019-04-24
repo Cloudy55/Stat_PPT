@@ -1,1 +1,1 @@
-## My PPT for Python, Git, Linux, etc.
+## My code for Python, Git, Linux, etc.
