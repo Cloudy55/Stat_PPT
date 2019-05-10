@@ -3,6 +3,7 @@
 install.packages('leafletCN')
 library(leafletCN)
 
+#数据来源：中国统计局官网
 data = read.csv("C:/Users/lenovo/Desktop/ex_life.csv",header = TRUE)
 #data缺少香港，澳门，台湾的数据
 regionNames("china")
