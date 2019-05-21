@@ -1,26 +1,26 @@
-NormlogLire = function(x,mu,sigma){
+NormlogLike = function(x,mu,sigma){
   return(sum(dnorm(x,mu,sigma,log = TRUE)))
 }
 
 f = function(mu){
-  return(NormlogLire(mu,x=data,sigma = 1200))
+  return(NormlogLike(mu,x=data,sigma = 1200))
 }
 
-dNormlogLire = function(x,mu,sigma){
+dNormlogLike = function(x,mu,sigma){
   return(sum((x-mu)/sigma^2))
 }
 
 
 df = function(mu){
-  return(dNormlogLire(mu,x=data,sigma = 1200))
+  return(dNormlogLike(mu,x=data,sigma = 1200))
 }
 
-ddNormlogLire = function(x,mu,sigma){
+ddNormlogLike = function(x,mu,sigma){
   return(-length(x)/sigma^2)
 }
 
 ddf = function(mu){
-  return(ddNormlogLire(mu,x=data,sigma = 1200))
+  return(ddNormlogLike(mu,x=data,sigma = 1200))
 }
 
 data = c(3000,2500,5000,2456,5637,3800,3040,4308,1300,4212,5601)
@@ -53,7 +53,7 @@ sigma = 1200
 z = matrix(NA,length(mu),length(sigma))  #z设为空矩阵
 for(i in 1:length(mu))
   for (j in 1:length(sigma))
-    z[i,j]=NormlogLire(x,mu[i],sigma[j])
+    z[i,j]=NormlogLike(x,mu[i],sigma[j])
 which(z==z[which.max(z)],arr.ind = T)
 mu[49]
 #[1] 3700
