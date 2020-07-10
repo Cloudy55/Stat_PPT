@@ -1,0 +1,2202 @@
+,title,date,doi,author,affiliation,abstract,href
+0,The UCSC SARS-CoV-2 Genome Browser,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.05.04.075945,"Jason D Fernandes, Angie S Hinrichs, Hiram Clawson, Jairo Navarro Gonzales, Brian T Lee, Luis R Nassar, Brian J Raney, Kate R Rosenbloom, Santrupti Nerli, Arjun A Rao, Daniel Schmelter, Ann S Zweig, Todd M Lowe, Manuel Ares Jr., Russell Corbett-Detig Jr., W. James Kent, David Haussler,
+View ORCID Profile
+Maximilian Haeussler","Jason D Fernandes
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jferna10@ucsc.edu
+Angie S Hinrichs
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: angie@soe.ucsc.edu
+Hiram Clawson
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hiram@soe.ucsc.edu
+Jairo Navarro Gonzales
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jnavarr5@ucsc.edu
+Brian T Lee
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: brianlee@ucsc.edu
+Luis R Nassar
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lrnassar@ucsc.edu
+Brian J Raney
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: braney@ucsc.edu
+Kate R Rosenbloom
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: kate@soe.ucsc.edu
+Santrupti Nerli
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: snerli@ucsc.edu
+Arjun A Rao
+2 ImmunoX Initiative, University of California San Francisco, San Francisco, CA 94143, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: arjunarkal.rao@ucsf.edu
+Daniel Schmelter
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: dschmelt@ucsc.edu
+Ann S Zweig
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: azweig@ucsc.edu
+Todd M Lowe
+3 Center for Molecular Biology of RNA, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tmjlowe@ucsc.edu
+Manuel Ares Jr.
+4 Molecular, Cell and Developmental Biology, University of California Santa Cruz, Santa Cruz, CA, 95064, USA
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: ares@ucsc.edu
+Russell Corbett-Detig Jr.
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rucorbet@ucsc.edu
+W. James Kent
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jimkent@ucsc.edu
+David Haussler
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: haussler@ucsc.edu
+Maximilian Haeussler
+1 Genomics Institute, University of California Santa Cruz, Santa Cruz, CA, 95064, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Maximilian Haeussler
+For correspondence: mhaeussl@ucsc.edu","Abstract
+Background: Researchers are generating molecular data pertaining to the SARS-CoV-2 RNA genome and its proteins at an unprecedented rate during the COVID-19 pandemic. As a result, there is a critical need for rapid and continuously updated access to the latest molecular data in a format in which all data can be quickly cross-referenced and compared. We adapted our genome browser visualization tool to the viral genome for this purpose. Molecular data, curated from published studies or from database submissions, are mapped to the viral genome and grouped together into ""annotation tracks"" where they can be visualized along the linear map of the viral genome sequence and programmatically downloaded in standard format for analysis. Results: The UCSC Genome Browser for SARS-CoV-2 (https://genome.ucsc.edu/covid19.html) provides continuously updated access to the mutations in the many thousands of SARS-CoV-2 genomes deposited in GISAID and the international nucleotide sequencing databases, displayed alongside phylogenetic trees. These data are augmented with alignments of bat, pangolin, and other animal and human coronavirus genomes, including per-base evolutionary rate analysis. All available annotations are cross-referenced on the virus genome, including those from major databases (PDB, RFAM, IEDB, UniProt) as well as up-to-date individual results from preprints. Annotated data include predicted and validated immune epitopes, promising antibodies, RT-PCR and sequencing primers, CRISPR guides (from research, diagnostics, vaccines, and therapies), and points of interaction between human and viral genes. As a community resource, any user can add manual annotations which are quality checked and shared publicly on the browser the next day. Conclusions: We invite all investigators to contribute additional data and annotations to this resource to accelerate research and development activities globally. Contact us at genome-www@soe.ucsc.edu with data suggestions or requests for support for adding data. Rapid sharing of data will accelerate SARS-CoV-2 research, especially when researchers take time to integrate their data with those from other labs on a widely-used community browser platform with standardized machine-readable data formats, such as the SARS-CoV-2 Genome Browser.",https://www.biorxiv.org/content/10.1101/2020.05.04.075945v1.full.pdf
+1,Missense variants in ACE2 are predicted to encourage and inhibit interaction with SARS-CoV-2 Spike and contribute to genetic risk in COVID-19,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.05.03.074781,"View ORCID Profile
+Stuart A MacGowan,
+View ORCID Profile
+Geoffrey J Barton","Stuart A MacGowan
+University of Dundee
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Stuart A MacGowan
+For correspondence: s.macgowan@dundee.ac.uk
+Geoffrey J Barton
+University of Dundee
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Geoffrey J Barton
+For correspondence: g.j.barton@dundee.ac.uk","Abstract
+SARS-CoV-2 invades host cells via an endocytic pathway that begins with the interaction of the SARS-CoV-2 Spike glycoprotein (S-protein) and human Angiotensin-converting enzyme 2 (ACE2). Genetic variability in ACE2 may be one factor that mediates the broad-spectrum severity of SARS-CoV-2 infection and COVID-19 outcomes. We investigated the capacity of ACE2 variation to influence SARS-CoV-2 infection with a focus on predicting the effect of missense variants on the ACE2 SARS-CoV-2 S-protein interaction. We validated the mCSM-PPI2 variant effect prediction algorithm with 26 published ACE2 mutant SARS-CoV S-protein binding assays and found it performed well in this closely related system (True Positive Rate = 0.7, True Negative Rate = 1). Application of mCSM-PPI2 to ACE2 missense variants from the Genome Aggregation Consortium Database (gnomAD) identified three that are predicted to strongly inhibit or abolish the S-protein ACE2 interaction altogether (p.Glu37Lys, p.Gly352Val and p.Asp355Asn) and one that is predicted to promote the interaction (p.Gly326Glu). The S-protein ACE2 inhibitory variants are expected to confer a high degree of resistance to SARS-CoV-2 infection whilst the S-protein ACE2 affinity enhancing variant may lead to additional susceptibility and severity. We also performed in silico saturation mutagenesis of the S-protein ACE2 interface and identified a further 38 potential missense mutations that could strongly inhibit binding and one more that is likely to enhance binding (Thr27Arg). A conservative estimate places the prevalence of the strongly protective variants between 12-70 per 100,000 population but there is the possibility of higher prevalence in local populations or those underrepresented in gnomAD. The probable interplay between these ACE2 affinity variants and ACE2 expression polymorphisms is highlighted as well as gender differences in penetrance arising from ACE2's situation on the X-chromosome. It is also described how our data can help power future genetic association studies of COVID-19 phenotypes and how the saturation mutant predictions can help design a mutant ACE2 with tailored S-protein affinity, which may be an improvement over a current recombinant ACE2 that is undergoing clinical trial.",https://www.biorxiv.org/content/10.1101/2020.05.03.074781v1.full.pdf
+2,Catalytic cleavage of HEAT and subsequent covalent binding of the tetralone moiety by the SARS-CoV-2 main protease,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.05.02.043554,"View ORCID Profile
+Sebastian Günther,
+View ORCID Profile
+Patrick Y. A. Reinke, Dominik Oberthuer, Oleksandr Yefanov, Helen Ginn, Susanne Meier, Thomas J. Lane, Kristina Lorenzen, Luca Gelisio, Wolfgang Brehm, Ilona Dunkel, Martin Domaracky, Sofiane Saouane, Julia Lieske, Christiane Ehrt, Faisal Koua, Alexandra Tolstikova,
+View ORCID Profile
+Thomas A. White, Michael Groessler, Holger Fleckenstein, Fabian Trost, Marina Galchenkova, Yaroslav Gevorkov, Chufeng Li, Salah Awel, Ariana Peck, P. Lourdu Xavier, Miriam Barthelmess, Frank Schlünzen, Nadine Werner, Hina Andaleeb, Najeeb Ullah, Sven Falke, Bruno Alves Franca, Martin Schwinzer, Hevila Brognaro, Brandon Seychell, Henry Gieseler, Diogo Melo, Jo J. Zaitsev-Doyle, Brenna Norton-Baker, Juraj Knoska, Gisel Esperanza, Aida Rahmani Mashhour, Filip Guicking, Vincent Hennicke, Pontus Fischer, Cromarte Rogers, Diana C. F. Monteiro, Johanna Hakanpää, Jan Meyer, Heshmat Noei, Phil Gribbon, Bernhard Ellinger, Maria Kuzikov, Markus Wolf, Linlin Zhang, Xinyuanyuan Sun, Jonathan Pletzer-Zelgert, Jan Wollenhaupt, Christian Feiler, Manfred Weiss, Eike-Christian Schulz, Pedram Mehrabi, Christina Schmidt, Robin Schubert, Huijong Han, Boris Krichel, Yaiza Fernández-García, Beatriz Escudero-Pérez, Stephan Günther, Dusan Turk, Charlotte Uetrecht, Tobias Beck, Henning Tidow, Aschwin Chari, Andrea Zaliani, Matthias Rarey, Russel Cox, Rolf Hilgenfeld, Henry N Chapman, Arwen R. Pearson, Christian Betzel, Alke Meents","Sebastian Günther
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Sebastian Günther
+For correspondence: sebastian.guenther@desy.de
+Patrick Y. A. Reinke
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Patrick Y. A. Reinke
+Dominik Oberthuer
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Oleksandr Yefanov
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Helen Ginn
+2 Diamond Light Source Ltd. Diamond House, Harwell Science and Innovation Campus, Didcot, OX11 0DE, UK;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Susanne Meier
+3 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Thomas J. Lane
+4 Linac Coherent Light Source, SLAC National Accelerator Laboratory, Menlo Park, California, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Kristina Lorenzen
+5 European XFEL GmbH. Holzkoppel 4, 22869 Schenefeld, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Luca Gelisio
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Wolfgang Brehm
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Ilona Dunkel
+6 Max Planck Institute for Molecular Genetics, Ihnestrasse 63-73, 14195 Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Martin Domaracky
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Sofiane Saouane
+7 Deutsches Elektronen Synchrotron (DESY), Photon Science, Notkestrasse 85, 22607, Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Julia Lieske
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Christiane Ehrt
+8 Universitaet Hamburg, Center for Bioinformatics, Bundesstr. 43, 20146 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Faisal Koua
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Alexandra Tolstikova
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Thomas A. White
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Thomas A. White
+Michael Groessler
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Holger Fleckenstein
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Fabian Trost
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Marina Galchenkova
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Yaroslav Gevorkov
+9 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg and Vision Systems, Hamburg University of Technology, 21071 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Chufeng Li
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Salah Awel
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Ariana Peck
+10 Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA 91125, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+P. Lourdu Xavier
+11 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg and Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Miriam Barthelmess
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Frank Schlünzen
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Nadine Werner
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Hina Andaleeb
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Najeeb Ullah
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Sven Falke
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Bruno Alves Franca
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Martin Schwinzer
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Hevila Brognaro
+12 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology and Laboratory for Structural Biology of Infection and Inflammation, c/o DESY, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Brandon Seychell
+13 Universitaet Hamburg, Department of Chemistry, Institute of Physical Chemistry, Grindelallee 117, 20146 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Henry Gieseler
+3 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Diogo Melo
+3 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jo J. Zaitsev-Doyle
+3 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Brenna Norton-Baker
+14 Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Juraj Knoska
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Gisel Esperanza
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Aida Rahmani Mashhour
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Filip Guicking
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Vincent Hennicke
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Pontus Fischer
+1 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Cromarte Rogers
+15 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Diana C. F. Monteiro
+16 Hauptmann Woodward Medical Research Institute, 700 Ellicott Street, Buffalo, NY, 14203, USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Johanna Hakanpää
+7 Deutsches Elektronen Synchrotron (DESY), Photon Science, Notkestrasse 85, 22607, Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jan Meyer
+7 Deutsches Elektronen Synchrotron (DESY), Photon Science, Notkestrasse 85, 22607, Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Heshmat Noei
+7 Deutsches Elektronen Synchrotron (DESY), Photon Science, Notkestrasse 85, 22607, Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Phil Gribbon
+17 Fraunhofer Institute for Molecular Biology and Applied Ecology (IME), screening port, Schnackenburgallee 114, 22525 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Bernhard Ellinger
+17 Fraunhofer Institute for Molecular Biology and Applied Ecology (IME), screening port, Schnackenburgallee 114, 22525 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Maria Kuzikov
+17 Fraunhofer Institute for Molecular Biology and Applied Ecology (IME), screening port, Schnackenburgallee 114, 22525 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Markus Wolf
+17 Fraunhofer Institute for Molecular Biology and Applied Ecology (IME), screening port, Schnackenburgallee 114, 22525 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Linlin Zhang
+18 Institute of Biochemistry, Center for Structural and Cell Biology in Medicine and German Center for Infection Research (DZIF), Hamburg-Luebeck-Borstel-Riems Site, University of Luebeck, 23562 Luebeck, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Xinyuanyuan Sun
+18 Institute of Biochemistry, Center for Structural and Cell Biology in Medicine and German Center for Infection Research (DZIF), Hamburg-Luebeck-Borstel-Riems Site, University of Luebeck, 23562 Luebeck, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jonathan Pletzer-Zelgert
+8 Universitaet Hamburg, Center for Bioinformatics, Bundesstr. 43, 20146 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jan Wollenhaupt
+19 Helmholtz Zentrum Berlin, Hahn-Meitner-Platz 1, 14109 Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Christian Feiler
+19 Helmholtz Zentrum Berlin, Hahn-Meitner-Platz 1, 14109 Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Manfred Weiss
+19 Helmholtz Zentrum Berlin, Hahn-Meitner-Platz 1, 14109 Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Eike-Christian Schulz
+14 Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Pedram Mehrabi
+14 Max Planck Institute for the Structure and Dynamics of Matter, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Christina Schmidt
+5 European XFEL GmbH. Holzkoppel 4, 22869 Schenefeld, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Robin Schubert
+5 European XFEL GmbH. Holzkoppel 4, 22869 Schenefeld, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Huijong Han
+5 European XFEL GmbH. Holzkoppel 4, 22869 Schenefeld, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Boris Krichel
+20 Dynamics of Viral Structures, Heinrich-Pette-Institut, Leibniz-Institut für Experimentelle Virologie, Martinistrasse 52, 20251 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Yaiza Fernández-García
+21 Bernhard Nocht Institute for Tropical Medicine, Bernhard-Nocht-Strasse 74, 20359 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Stephan Günther
+21 Bernhard Nocht Institute for Tropical Medicine, Bernhard-Nocht-Strasse 74, 20359 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Dusan Turk
+22 Department of Biochemistry & Molecular & Structural Biology, Jozef Stefan Institute, Jamova 39, 1 000 Ljubljana, Slovenia;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Charlotte Uetrecht
+20 Dynamics of Viral Structures, Heinrich-Pette-Institut, Leibniz-Institut für Experimentelle Virologie, Martinistrasse 52, 20251 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Aschwin Chari
+25 Department of Structural Dynamics, Max Planck Institute for Biophysical Chemistry, Am Fassberg 11, 37077 Goettingen, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Andrea Zaliani
+17 Fraunhofer Institute for Molecular Biology and Applied Ecology (IME), screening port, Schnackenburgallee 114, 22525 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Matthias Rarey
+8 Universitaet Hamburg, Center for Bioinformatics, Bundesstr. 43, 20146 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Russel Cox
+26 Institute for Organic Chemistry and BMWZ, Leibniz University of Hannover, Schneiderberg 38, 30167 Hannover, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Henry N Chapman
+28 Center for Free-Electron Laser Science, DESY, Notkestrasse 85, 22607 Hamburg and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Arwen R. Pearson
+3 Universitaet Hamburg, Institut fuer Nanostruktur- und Festkoerperphysik and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Christian Betzel
+24 Universitaet Hamburg, Department of Chemistry, Institute of Biochemistry and Molecular Biology, Martin-Luther-King-Platz 6, 20146 Hamburg, and Hamburg Centre for Ultrafast Imaging, Universitaet Hamburg, Luruper Chaussee 149, 22761 Hamburg, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site","Abstract
+Here we present the crystal structure of SARS-CoV-2 main protease (Mpro) covalently bound to 2-methyl-1-tetralone. This complex was obtained by co-crystallization of Mpro with HEAT (2-(((4-hydroxyphenethyl)amino)methyl)-3,4-dihydronaphthalen-1(2H)-one) in the framework of a large X-ray crystallographic screening project of Mpro against a drug repurposing library, consisting of 5632 approved drugs or compounds in clinical phase trials. Further investigations showed that HEAT is cleaved by Mpro in an E1cB-like reaction mechanism into 2-methylene-1-tetralone and tyramine. The catalytic Cys145 subsequently binds covalently in a Michael addition to the methylene carbon atom of 2-methylene-1-tetralone. According to this postulated model HEAT is acting in a pro-drug-like fashion. It is metabolized by Mpro, followed by covalent binding of one metabolite to the active site. The structure of the covalent adduct elucidated in this study opens up a new path for developing non-peptidic inhibitors.",https://www.biorxiv.org/content/10.1101/2020.05.02.043554v1.full.pdf
+3,Feline coronavirus drug inhibits the main protease of SARS-CoV-2 and blocks virus replication,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.05.03.073080,"Wayne Vuong, Muhammed Bashir Khan,
+View ORCID Profile
+Conrad Fischer, Elena Arutyunova, Tess Lamer, Justin Shields, Holly A Saffran,
+View ORCID Profile
+Ryan T McKay, Marco J van Belkum,
+View ORCID Profile
+Michael Joyce,
+View ORCID Profile
+Howard S Young,
+View ORCID Profile
+D. Lorne Tyrrell,
+View ORCID Profile
+John C Vederas,
+View ORCID Profile
+M Joanne Lemieux","Wayne Vuong
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wv1@ualberta.ca
+Muhammed Bashir Khan
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: mbk@ualberta.ca
+Conrad Fischer
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Conrad Fischer
+For correspondence: conrad.fischer@ualberta.ca
+Elena Arutyunova
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: earutyun@ualberta.ca
+Tess Lamer
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tlamer@ualberta.ca
+Justin Shields
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: shields2@ualberta.ca
+Holly A Saffran
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hsaffran@ualberta.ca
+Ryan T McKay
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Ryan T McKay
+For correspondence: rmckay@ualberta.ca
+Marco J van Belkum
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: mvanbelkum@ualberta.ca
+Michael Joyce
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Michael Joyce
+For correspondence: maj2@ualberta.ca
+Howard S Young
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Howard S Young
+For correspondence: hyoung@ualberta.ca
+D. Lorne Tyrrell
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for D. Lorne Tyrrell
+For correspondence: ltyrrell@ualberta.ca
+John C Vederas
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for John C Vederas
+For correspondence: john.vederas@ualberta.ca
+M Joanne Lemieux
+University of Alberta
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for M Joanne Lemieux
+For correspondence: mlemieux@ualberta.ca","Abstract
+The COVID-19 pandemic, attributed to the SARS-CoV-2 coronavirus infection, resulted in millions infected worldwide and an immediate need for antiviral treatments. The main protease (Mpro) in SARS-CoV-2 is a viable drug target because of its essential role in the cleavage of the virus polypeptide and subsequent viral replication. Feline infectious peritonitis, a fatal infection in cats caused by a coronavirus, was successfully treated previously with a dipeptide-based protease inhibitor. Here we show this drug, GC376, and its analog GC373, are effective inhibitors of the Mpro from both SARS-CoV and SARS-CoV-2 with IC50 values in the nanomolar range. Crystal structures of the SARS-CoV and SARS-CoV-2 Mpro with these inhibitors have a covalent modification of the nucleophilic Cys145. NMR analysis reveals that inhibition proceeds via reversible formation of a hemithioacetal. GC373 and GC376 are potent inhibitors of SARS-CoV-2 in cell culture, with EC50 values near one micromolar and little to no toxicity. These protease inhibitors are soluble, non-toxic, and bind reversibly. They are strong drug candidates for the treatment of human coronavirus infections because they have already been successful in animals (cats). The work here lays the framework for their use in human trials for the treatment of COVID-19.",https://www.biorxiv.org/content/10.1101/2020.05.03.073080v1.full.pdf
+4,Structure of anxiety associated with the COVID-19 pandemic in the Russian-speaking sample: results from on-line survey,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20074302,"View ORCID Profile
+Mikhail Yu. Sorokin,
+View ORCID Profile
+Evgeny D. Kasyanov,
+View ORCID Profile
+Grigory V. Rukavishnikov, Olga V. Makarevich,
+View ORCID Profile
+Nikolay G. Neznanov, Nataliya B. Lutova,
+View ORCID Profile
+Galina E. Mazo","Mikhail Yu. Sorokin
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Mikhail Yu. Sorokin
+For correspondence: m.sorokin@list.ru
+Evgeny D. Kasyanov
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Evgeny D. Kasyanov
+For correspondence: ohkasyan@yandex.ru
+Grigory V. Rukavishnikov
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Grigory V. Rukavishnikov
+For correspondence: grigory_v_r@mail.ru
+Olga V. Makarevich
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lysska@mail.ru
+Nikolay G. Neznanov
+2 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology; I.P. Pavlov First Saint-Petersburg State Medical University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Nikolay G. Neznanov
+For correspondence: spbinstb@bekhterev.ru
+Nataliya B. Lutova
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lutova@mail.ru
+Galina E. Mazo
+1 V.M. Bekhterev National Medical Research Center for Psychiatry and Neurology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Galina E. Mazo
+For correspondence: galina-mazo@yandex.ru","Abstract
+The COVID-19 pandemic imposed not only serious threats to the physical health of the population, but also provoked a wide range of psychological problems. Objective: to identify the most vulnerable populations during the epidemic period (including among individuals with affective disorders) who are most in need of psychological and / or psychiatric help. Material and methods: on-line survey of 1957 Russian-speaking respondents over 18 years old from March 30 to April 5, 2020. The level of anxiety distress was verified with the psychological stress scale (PSM-25). Stigmatization of individuals experiencing respiratory symptoms was assessed with modified devaluation / discrimination questionnaire (PDD; Cronbach's α= 0.707). Results: 99.8% of respondents had variable concerns associated with COVID-19. Their mean scores of psychological stress were increased to moderate levels (104.9 ± 34.4 points), and the stigmatization scores exceeded the value of the whole sample median (19.5 ± 3.4; Me = 19). 35% of respondents had concerns about COVID-19 associated with anxiety distress (Cohen's d = 0.16-0.39). These were ""risk of isolation"" and ""possible lack of medication for daily use"". The most prone to concerns were respondents' groups with affective disorders; young people (�?0 years old), unemployed, single, those without higher education and women. Conclusions: large sub-cohorts of the Russian-speaking sample need correction of anxiety distress associated with the COVID-19 pandemic. The implementation of such measures should be targeted and oriented in terms of coverage and content to identified vulnerable social groups.",https://www.medrxiv.org/content/10.1101/2020.04.28.20074302v1.full.pdf
+5,Development and validation of direct RT-LAMP for SARS-CoV-2,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20075747,"Abu Naser Mohon, Jana Hundt, Guido van Marle, Kanti Pabbaraju, Byron Berenger, Thomas Griener, Luiz Lisboa, Deirdre Church, Markus Czub, Alexander Greninger, Keith Jerome, Cody Doolan, Dylan R Pillai","Abu Naser Mohon
+1 University of Calgary;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: manmohon@ucalgary.ca
+Jana Hundt
+1 University of Calgary;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jana.hundt@ucalgary.ca
+Guido van Marle
+1 University of Calgary;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: vanmarle@ucalgary.ca
+Kanti Pabbaraju
+2 Alberta Public Health Laboratory;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: kanti.pabbaraju@albertaprecisionlabs.ca
+Byron Berenger
+2 Alberta Public Health Laboratory;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: byron.berenger@albertaprecisionlabs.ca
+Thomas Griener
+3 Alberta Precision Laboratories;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: thomas.griener@albertaprecisionlabs.ca
+Luiz Lisboa
+3 Alberta Precision Laboratories;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: luiz.lisboa@albertaprecisionlabs.ca
+Deirdre Church
+3 Alberta Precision Laboratories;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: deirdre.church@albertaprecisionlabs.ca
+Markus Czub
+1 University of Calgary;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: m.czub@ucalgary.ca
+Alexander Greninger
+4 University of Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: agrening@uw.edu
+Keith Jerome
+5 Universityof Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: kjerome@fredhutch.org
+Cody Doolan
+6 Illucidx Inc.
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: cody.doolan@illucidx.com
+Dylan R Pillai
+1 University of Calgary;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: drpillai@ucalgary.ca","Abstract
+We have developed a reverse-transcriptase loop mediated amplification (RT-LAMP) method targeting genes encoding the Spike (S) protein and RNA-dependent RNA polymerase (RdRP) of SARS-CoV-2. The LAMP assay achieves the same limit of detection as commonly used RT-PCR protocols based on artificial targets, recombinant Sindbis virus, and clinical samples. Clinical validation of single target LAMP (N=108) showed a positive percent agreement (PPA) of 33/34 (97.1%) and negative percent agreement (NPA) of 73/74 (98.6%) compared to reference RT-PCR. Dual target RT-LAMP achieved a PPA of 11/11 (100%) and NPA 13/13 (100%) when including discrepant samples. The assay can be performed without a formal extraction procedure, with lyophilized reagents that do need cold chain, and is amenable to point-of-care application with visual detection.",https://www.medrxiv.org/content/10.1101/2020.04.29.20075747v1.full.pdf
+6,A cohort of patients with COVID-19 in a major teaching hospital in Europe,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20080853,"View ORCID Profile
+Alberto M Borobia, Antonio J Carcas, Francisco Arnalich, Rodolfo Alvarez-Sala, Jaime Montserrat, Manuel Quintana, Juan C Figueira, Rosario M Torres Santos-Olmo, Julio Garcia-Rodriguez, Alberto Martin-Vega, Elena Ramirez, Antonio Buno, Gonzalo Martinez-Ales, Nicolas Garcia-Arenzana, Milagros Marti de Gracia, Francisco Moreno, Francisco Reinoso-Barbero, Alejandro Martin-Quiros, Angelica Rivera, Jesus Mingorance, Carlos C Carpio, Daniel Prieto Arribas, Esther Rey Cuevas, Maria C Prados, Juan J Rios, Miguel Hernan, Jesus Frias, Jose R Arribas, COVID@HULP working team","Alberto M Borobia
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Alberto M Borobia
+For correspondence: a.borobia@gmail.com
+Antonio J Carcas
+2 La Paz University Hospital-IdiPAZ;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: antonio.carcas@uam.es
+Francisco Arnalich
+2 La Paz University Hospital-IdiPAZ;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: farnalich@salud.madrid.org
+Rodolfo Alvarez-Sala
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rodolfo.alvarezsala@salud.madrid.org
+Jaime Montserrat
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jaime.monserrat@salud.madrid.org
+Manuel Quintana
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: manuel.quintana@salud.madrid.org
+Juan C Figueira
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: juancarlos.figueira@salud.madrid.org
+Rosario M Torres Santos-Olmo
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rosario.torres@salud.madrid.org
+Julio Garcia-Rodriguez
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jgarciarodriguez@salud.madrid.org
+Alberto Martin-Vega
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: amartinv@salud.madrid.org
+Elena Ramirez
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: elena.ramirezg@uam.es
+Antonio Buno
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: antonio.buno@salud.madrid.org
+Gonzalo Martinez-Ales
+3 Columbia University Mailman School of Public Health;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: gm2794@cumc.columbia.edu
+Nicolas Garcia-Arenzana
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: ngarciaarenzana@salud.madrid.org
+Milagros Marti de Gracia
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: milagros.marti@salud.madrid.org
+Francisco Moreno
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: fmorenor.hulp@salud.madrid.org
+Francisco Reinoso-Barbero
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: francisco.reinoso@salud.madrid.org
+Alejandro Martin-Quiros
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: amquiros@salud.madrid.org
+Angelica Rivera
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: angelica.rivera@salud.madrid.org
+Jesus Mingorance
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jesus.mingorance@idipaz.es
+Carlos C Carpio
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: carlosjavier.carpio@salud.madrid.org
+Daniel Prieto Arribas
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: dprietoa@salud.madrid.org
+Esther Rey Cuevas
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: esther.rey@salud.madrid.org
+Maria C Prados
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: m.concepcion.prados@salud.madrid.org
+Juan J Rios
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: juanj.rios@salud.madrid.org
+Miguel Hernan
+4 Harvard University T H Chan School of Public Health
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: mhernan@hsph.harvard.edu
+Jesus Frias
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jesus.frias@uam.es
+Jose R Arribas
+1 La Paz University Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: joser.arribas@salud.madrid.org","Abstract
+BACKGROUND Since the confirmation of the first patient infected with SARS-CoV-2 in Spain in January 2020, the epidemic has grown rapidly, with the greatest impact on the Madrid region. This article describes the first 2226 consecutive adult patients with COVID-19 admitted to the La Paz University Hospital in Madrid. METHODS Our cohort included all consecutively admitted patients who were hospitalized and who had a final outcome (death or discharge) in a 1286-bed hospital of Madrid (Spain) from February 25th (first case admitted) to April 19th, 2020. Data was entered manually into an electronic case report form, which was monitored prior to the analysis. RESULTS We consecutively included 2226 adult patients admitted to the hospital who either died (460) or were discharged (1766). The patients median age was 61 years; 51.8% were women. The most common comorbidity was arterial hypertension (41.3%). The most common symptoms on admission were fever (71.2%). The median time from disease onset to hospital admission was 6 days. Overall mortality was 20.7% and was higher in men (26.6% vs 15.1%). Seventy-five patients with a final outcome were transferred to the ICU (3.4%). Most patients admitted to the ICU were men, and the median age was 64 years. Baseline laboratory values on admission were consistent with an impaired immune-inflammatory profile. CONCLUSIONS We provide a description of the first large cohort of hospitalized patients with COVID-19 in Europe. Advanced age, male gender, the presence of comorbidities and abnormal laboratory values were more common among the patients with fatal outcomes.",https://www.medrxiv.org/content/10.1101/2020.04.29.20080853v1.full.pdf
+7,A national prospective cohort study of SARS/COV2 pandemic outcomes in the U.S.: The CHASING COVID Cohort,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20080630,"View ORCID Profile
+McKaylee Robertson, Sarah Kulkarni, Amanda Berry, Chloe Mirzayi, Andrew R Maroko, Rebecca Zimba, Drew Westmoreland, Christian Grov, Angela Parcesepe, Levi Waldron, Denis Nash","McKaylee Robertson
+1 CUNY ISPH;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for McKaylee Robertson
+For correspondence: mckaylee.robertson@sph.cuny.edu
+Sarah Kulkarni
+2 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sarah.kulkarni@sph.cuny.edu
+Amanda Berry
+2 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: amanda.berry@sph.cuny.edu
+Chloe Mirzayi
+3 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA 2Department of Epidemiology and Biostatistics, Graduate School of Public Health and Health Policy, City University of New Yo;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: chloe.mirzayi@sph.cuny.edu
+Andrew R Maroko
+4 CUNY Graduate School of Public Health and Health Policy;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: andrew.maroko@sph.cuny.edu
+Rebecca Zimba
+2 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rebecca.zimba@sph.cuny.edu
+Drew Westmoreland
+2 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: drew.westmoreland@sph.cuny.edu
+Christian Grov
+5 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA4Department of Community Health and Social Sciences, Graduate School of Public Health and Health Policy, City University of N;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: christian.grov@sph.cuny.edu
+Angela Parcesepe
+6 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA5Department of Maternal and Child Health, Gillings School of Public Health, University of North Carolina, Chapel Hill, NC, US
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: parcesep@live.unc.edu
+Levi Waldron
+3 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA 2Department of Epidemiology and Biostatistics, Graduate School of Public Health and Health Policy, City University of New Yo;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: levi.waldron@sph.cuny.edu
+Denis Nash
+3 1Institute for Implementation Science in Population Health (ISPH), City University of New York (CUNY); New York City, New York USA 2Department of Epidemiology and Biostatistics, Graduate School of Public Health and Health Policy, City University of New Yo;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: denis.nash@sph.cuny.edu","Abstract
+Introduction: The Chasing COVID Cohort (C3) study is a US-based, geographically and socio-demographically diverse sample of adults (18 and older) enrolled into a prospective cohort study during the upswing of the U.S. COVID-19 pandemic. Methods: We used internet-based strategies to enroll C3 participants beginning March 28th, 2020. Following baseline questionnaire completion, study participants will be contacted monthly (for 6 months) to complete assessments of engagement in non-pharmaceutical interventions (e.g., use of cloth masks, avoiding large gatherings); COVID-19 symptoms; SARS/COV2 testing and diagnosis; hospitalizations; healthcare access; and uptake of health messaging. Dried blood spot (DBS) specimens will be collected at the first follow-up assessment (last week of April 2020) and at month 3 (last week of June 2020) and stored until a validated serologic test is available. Results: As of April 20, 2020, the number of people that completed the baseline survey and provided contact information for follow-up was 7,070. Participants resided in all 50 US states, the District of Columbia, Puerto Rico, and Guam. At least 24% of participants were frontline workers (healthcare and other essential workers). Twenty-three percent (23%) were 60+ years, 24% were Black or Hispanic, 52% were men, and 52% were currently employed. Nearly 20% reported recent COVID-like symptoms (cough, fever or shortness of breath) and a high proportion reported engaging in non-pharmaceutical interventions that reduce SARS/COV2 spread (93% avoided groups >20, 58% wore masks; 73% quarantined). More than half (54%) had higher risk for severe COVID-19 illness should they become infected with SARS/COV2 based on age, underlying health conditions (e.g., chronic lung disease), or daily smoking. Discussion: A geographically and socio-demographically diverse group of participants was rapidly enrolled in the C3 during the upswing of the SARS/COV2 pandemic. Strengths of the C3 include the potential for direct observation of, and risk factors for, seroconversion and incident COVID disease (among those with or without antibodies to SARS/COV2) in areas of active transmission.",https://www.medrxiv.org/content/10.1101/2020.04.28.20080630v1.full.pdf
+8,"Full-spectrum dynamics of the coronavirus disease outbreak in Wuhan, China: a modeling study of 32,583 laboratory-confirmed cases","Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.27.20078436,"Xingjie Hao, Shanshan Cheng, Degang Wu, Tangchun Wu, Xihong Lin,
+View ORCID Profile
+Chaolong Wang","Xingjie Hao
+1 Huazhong University of Science and Technology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xingjie@hust.edu.cn
+Shanshan Cheng
+1 Huazhong University of Science and Technology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sscheng@hust.edu.cn
+Degang Wu
+1 Huazhong University of Science and Technology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wudegang@hust.edu.cn
+Tangchun Wu
+1 Huazhong University of Science and Technology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wut@tjmu.edu.cn
+Xihong Lin
+2 Harvard School of Public Health
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xlin@hsph.harvard.edu
+Chaolong Wang
+1 Huazhong University of Science and Technology;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Chaolong Wang
+For correspondence: chaolong@hust.edu.cn","Abstract
+Vigorous non-pharmaceutical interventions have largely suppressed the COVID-19 outbreak in Wuhan, China. We developed a susceptible-exposed-infectious-recovered model to study the transmission dynamics and evaluate the impact of interventions using 32,583 laboratory-confirmed cases from December 8, 2019 till March 8, 2020, accounting for time-varying ascertainment rates, transmission rates, and population movements. The effective reproductive number R0 dropped from 3.89 (95% credible interval: 3.79-4.00) before intervention to 0.14 (0.11-0.28) after full-scale multi-pronged interventions. By projection, the interventions reduced the total infections in Wuhan by 96.5% till March 8. Furthermore, we estimated that 79% (lower bound: 60%) of the total infections were unascertained, potentially including asymptomatic and mild-symptomatic cases. The probability of resurgence was 0.22 and 0.10 based on models with 79% and 60% infections unascertained, respectively, assuming interventions were lifted after a 14-day period of no new ascertained infections. These results provide important implications for continuing surveillance and interventions to eventually contain the outbreak.",https://www.medrxiv.org/content/10.1101/2020.04.27.20078436v1.full.pdf
+9,Preliminary evidence from a multicenter prospective observational study of the safety and efficacy of chloroquine for the treatment of COVID-19,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.26.20081059,"Mingxing Huang, Man Li, Fei Xiao, Jiabi Liang, Pengfei Pang, Tiantian Tang, Shaoxuan Liu, Binghui Chen, Jingxian Shu, Yingying You, Yang Li, Meiwen Tang, Jianhui Zhou, Guanmin Jiang, Jingfen Xiang, Wenxin Hong, Songmei He, Zhaoqin Wang, Jianhua Feng, Changqing Lin, Yinong Ye, Zhilong Wu, Yaocai Li, Bei Zhong, Ruilin Sun, Zhongsi Hong, Jing Liu, Huili Chen, Xiaohua Wang, Zhonghe Li, Duanqing Pei, Lin Tian, Jinyu Xia, Shanping Jiang, Nanshan Zhong, Hong Shan","Mingxing Huang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: huangmx5@mail.sysu.edu.cn
+Man Li
+2 The Fifth Affiliated Hospital, Sun Yat-Sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: liman26@mail.sysu.edu.cn
+Fei Xiao
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiaof35@sysu.edu.cn
+Jiabi Liang
+3 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 121546978@qq.com
+Pengfei Pang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: pangpf@mail.sysu.edu.cn
+Tiantian Tang
+4 Sun Yat-sen Memorial Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tangtt3@mail.sysu.edu.cn
+Shaoxuan Liu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lsx323@126.com
+Binghui Chen
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: chenbhui@mail.sysu.edu.cn
+Jingxian Shu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 470505994@qq.com
+Yingying You
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: youyingy@mail.sysu.edu.cn
+Yang Li
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: liyang266@mail.sysu.edu.cn
+Meiwen Tang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 15111210021@fudan.edu.cn
+Jianhui Zhou
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhoujianhui0428@qq.com
+Guanmin Jiang
+5 The Fifth Affiliated Hospital, Sun Yat-Sen University.;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jianggm3@mail.sysu.edu.cn
+Jingfen Xiang
+6 Wuhan East West Lake Mobile Cabin Hospitals;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiang888200@126.com
+Wenxin Hong
+7 Guangzhou Eighth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: winsonhong@126.com
+Songmei He
+8 Dongguan Ninth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 2103303806@qq.com
+Zhaoqin Wang
+9 Shenzhen Third People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhaoqinw108@126.com
+Jianhua Feng
+10 Zhongshan Second People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jamesdaddyfeng@hotmail.com
+Changqing Lin
+11 Huizhou Central People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hz-linchangqing@163.com
+Yinong Ye
+12 Foshan First people's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: yynong@fsyyy.com
+Zhilong Wu
+13 Foshan Fourth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wuzlfs@163.com
+Yaocai Li
+14 Maoming People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 1265114220@qq.com
+Bei Zhong
+15 Qingyuan People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhongbei62@sina.com
+Ruilin Sun
+16 Guangdong Second People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sunruilin213@163.com
+Zhongsi Hong
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hongzhs@sysu.edu.cn
+Jing Liu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 13844021812@163.com
+Huili Chen
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: chhuil@mail.sysu.edu.cn
+Xiaohua Wang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wxh70662@sohu.com
+Zhonghe Li
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhongheli88@163.com
+Duanqing Pei
+17 Guangzhou Regenerative Medicine and Health Guangdong Laboratory;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: pei_duanqing@gibh.ac.cn
+Lin Tian
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tianlin@mail.sysu.edu.cn
+Jinyu Xia
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiajinyu@mail.sysu.edu.cn
+Shanping Jiang
+4 Sun Yat-sen Memorial Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jiangshp@mail.sysu.edu.cn
+Nanshan Zhong
+18 The First Affiliated Hospital of Guangzhou Medical University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: nanshan@vip.163.com
+Hong Shan
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: shanhong@mail.sysu.edu.cn","Abstract
+Background Effective therapies are urgently needed for the SARS-CoV-2 pandemic. Chloroquine has been proved to have antiviral effect against coronavirus in vitro. In this study, we aimed to assess the efficacy and safety of chloroquine with different doses in COVID-19. Method In this multicenter prospective observational study, we enrolled patients older than 18 years old with confirmed SARS-CoV-2 infection excluding critical cases from 12 hospitals in Guangdong and Hubei Provinces. Eligible patients received chloroquine phosphate 500mg, orally, once (half dose) or twice (full dose) daily. Patients treated with non-chloroquine therapy were included as historical controls. The primary endpoint is the time to undetectable viral RNA. Secondary outcomes include the proportion of patients with undetectable viral RNA by day 10 and 14, hospitalization time, duration of fever, and adverse events. Results A total of 197 patients completed chloroquine treatment, and 176 patients were included as historical controls. The median time to achieve an undetectable viral RNA was shorter in chloroquine than in non-chloroquine (absolute difference in medians -6.0 days; 95% CI -6.0 to -4.0). The duration of fever is shorter in chloroquine (geometric mean ratio 0.6; 95% CI 0.5 to 0.8). No serious adverse events were observed in the chloroquine group. Patients treated with half dose experienced lower rate of adverse events than with full dose. Conclusions Although randomised trials are needed for further evaluation, this study provides evidence for safety and efficacy of chloroquine in COVID-19 and suggests that chloroquine can be a cost-effective therapy for combating the COVID-19 pandemic.",https://www.medrxiv.org/content/10.1101/2020.04.26.20081059v1.full.pdf
+0,Preliminary evidence from a multicenter prospective observational study of the safety and efficacy of chloroquine for the treatment of COVID-19,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.26.20081059,"Mingxing Huang, Man Li, Fei Xiao, Jiabi Liang, Pengfei Pang, Tiantian Tang, Shaoxuan Liu, Binghui Chen, Jingxian Shu, Yingying You, Yang Li, Meiwen Tang, Jianhui Zhou, Guanmin Jiang, Jingfen Xiang, Wenxin Hong, Songmei He, Zhaoqin Wang, Jianhua Feng, Changqing Lin, Yinong Ye, Zhilong Wu, Yaocai Li, Bei Zhong, Ruilin Sun, Zhongsi Hong, Jing Liu, Huili Chen, Xiaohua Wang, Zhonghe Li, Duanqing Pei, Lin Tian, Jinyu Xia, Shanping Jiang, Nanshan Zhong, Hong Shan","Mingxing Huang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: huangmx5@mail.sysu.edu.cn
+Man Li
+2 The Fifth Affiliated Hospital, Sun Yat-Sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: liman26@mail.sysu.edu.cn
+Fei Xiao
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiaof35@sysu.edu.cn
+Jiabi Liang
+3 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 121546978@qq.com
+Pengfei Pang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: pangpf@mail.sysu.edu.cn
+Tiantian Tang
+4 Sun Yat-sen Memorial Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tangtt3@mail.sysu.edu.cn
+Shaoxuan Liu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lsx323@126.com
+Binghui Chen
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: chenbhui@mail.sysu.edu.cn
+Jingxian Shu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 470505994@qq.com
+Yingying You
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: youyingy@mail.sysu.edu.cn
+Yang Li
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: liyang266@mail.sysu.edu.cn
+Meiwen Tang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 15111210021@fudan.edu.cn
+Jianhui Zhou
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhoujianhui0428@qq.com
+Guanmin Jiang
+5 The Fifth Affiliated Hospital, Sun Yat-Sen University.;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jianggm3@mail.sysu.edu.cn
+Jingfen Xiang
+6 Wuhan East West Lake Mobile Cabin Hospitals;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiang888200@126.com
+Wenxin Hong
+7 Guangzhou Eighth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: winsonhong@126.com
+Songmei He
+8 Dongguan Ninth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 2103303806@qq.com
+Zhaoqin Wang
+9 Shenzhen Third People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhaoqinw108@126.com
+Jianhua Feng
+10 Zhongshan Second People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jamesdaddyfeng@hotmail.com
+Changqing Lin
+11 Huizhou Central People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hz-linchangqing@163.com
+Yinong Ye
+12 Foshan First people's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: yynong@fsyyy.com
+Zhilong Wu
+13 Foshan Fourth People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wuzlfs@163.com
+Yaocai Li
+14 Maoming People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 1265114220@qq.com
+Bei Zhong
+15 Qingyuan People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhongbei62@sina.com
+Ruilin Sun
+16 Guangdong Second People's Hospital;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sunruilin213@163.com
+Zhongsi Hong
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: hongzhs@sysu.edu.cn
+Jing Liu
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 13844021812@163.com
+Huili Chen
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: chhuil@mail.sysu.edu.cn
+Xiaohua Wang
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: wxh70662@sohu.com
+Zhonghe Li
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhongheli88@163.com
+Duanqing Pei
+17 Guangzhou Regenerative Medicine and Health Guangdong Laboratory;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: pei_duanqing@gibh.ac.cn
+Lin Tian
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: tianlin@mail.sysu.edu.cn
+Jinyu Xia
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: xiajinyu@mail.sysu.edu.cn
+Shanping Jiang
+4 Sun Yat-sen Memorial Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jiangshp@mail.sysu.edu.cn
+Nanshan Zhong
+18 The First Affiliated Hospital of Guangzhou Medical University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: nanshan@vip.163.com
+Hong Shan
+1 The Fifth Affiliated Hospital, Sun Yat-sen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: shanhong@mail.sysu.edu.cn","Abstract
+Background Effective therapies are urgently needed for the SARS-CoV-2 pandemic. Chloroquine has been proved to have antiviral effect against coronavirus in vitro. In this study, we aimed to assess the efficacy and safety of chloroquine with different doses in COVID-19. Method In this multicenter prospective observational study, we enrolled patients older than 18 years old with confirmed SARS-CoV-2 infection excluding critical cases from 12 hospitals in Guangdong and Hubei Provinces. Eligible patients received chloroquine phosphate 500mg, orally, once (half dose) or twice (full dose) daily. Patients treated with non-chloroquine therapy were included as historical controls. The primary endpoint is the time to undetectable viral RNA. Secondary outcomes include the proportion of patients with undetectable viral RNA by day 10 and 14, hospitalization time, duration of fever, and adverse events. Results A total of 197 patients completed chloroquine treatment, and 176 patients were included as historical controls. The median time to achieve an undetectable viral RNA was shorter in chloroquine than in non-chloroquine (absolute difference in medians -6.0 days; 95% CI -6.0 to -4.0). The duration of fever is shorter in chloroquine (geometric mean ratio 0.6; 95% CI 0.5 to 0.8). No serious adverse events were observed in the chloroquine group. Patients treated with half dose experienced lower rate of adverse events than with full dose. Conclusions Although randomised trials are needed for further evaluation, this study provides evidence for safety and efficacy of chloroquine in COVID-19 and suggests that chloroquine can be a cost-effective therapy for combating the COVID-19 pandemic.",https://www.medrxiv.org/content/10.1101/2020.04.26.20081059v1.full.pdf
+1,Enzyme immunoassay for SARS-CoV-2 antibodies in dried blood spot samples: A minimally-invasive approach to facilitate community- and population-based screening,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20081844,"View ORCID Profile
+Thomas W McDade, Elizabeth McNally, Richard Thomas D'Aquila, Brian Mustanski, Aaron Miller, Lauren Vaught, Nina Reiser, Elena Bogdanovic, Aaron Zelikovich, Alexis Demonbreun","Thomas W McDade
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Thomas W McDade
+For correspondence: t-mcdade@northwestern.edu
+Elizabeth McNally
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: elizabeth.mcnally@northwestern.edu
+Richard Thomas D'Aquila
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: richard.daquila@northwestern.edu
+Brian Mustanski
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: brian@northwestern.edu
+Aaron Miller
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: a-miller@northwestern.edu
+Lauren Vaught
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: lauren.vaught@northwestern.edu
+Nina Reiser
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: nina.reiser@northwestern.edu
+Elena Bogdanovic
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: elena.bogdanovic@northwestern.edu
+Aaron Zelikovich
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: aaron.zelikovich@northwestern.edu
+Alexis Demonbreun
+Northwestern University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: alexis.demonbreun@northwestern.edu","Abstract
+Background Serological testing for SARS-CoV-2 IgG antibodies is needed to document the community prevalence and distribution of the virus, particularly since many individuals have mild symptoms and cannot access molecular diagnostic testing of naso-pharyngeal swabs. However, the requirement for serum/plasma limits serological testing to clinical settings where it is feasible to collect and process venous blood. To address this problem we developed a serological test for SARS-CoV-2 IgG antibodies that requires only a single drop of capillary whole blood, collected from a simple finger prick and dried on filter paper (dried blood spot, DBS). Methods Enzyme linked immunosorbent assay (ELISA) was optimized to detect SARS-CoV-2 IgG antibodies against the receptor-binding domain (RBD) of the spike protein. DBS samples were eluted overnight and transferred to a 96-well plate coated with antigen, and anti-human IgG-HRP was used to generate signal in proportion to bound antibody. DBS samples spiked with anti-SARS IgG antibody, and samples from known positive and negative cases, were compared to evaluate assay performance. Results Analysis of samples with known concentrations of anti-SARS IgG produced the expected pattern of dose-response. Optical density (OD) values were significantly elevated for known positive cases in comparison with samples from unexposed individuals. Discussion DBS ELISA provides a minimally-invasive alternative to venous blood collection that combines the convenience of sample collection in the home or non-clinical setting with the accuracy of ELISA in the lab. Serological testing for SARS-CoV-2 IgG antibodies in DBS samples should facilitate research across a wide range of community- and population-based settings on seroprevalence, predictors and duration of antibody responses, as well as correlates of protection from reinfection, each of which is critically important for pandemic control.",https://www.medrxiv.org/content/10.1101/2020.04.28.20081844v1.full.pdf
+2,COVID-19 Pandemic Response Simulation: Impact of Non-pharmaceutical Interventions on Ending Lockdowns,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20080838,"Serin Lee, Zelda B Zabinsky, Stephen M Kofsky, Shan Liu","Serin Lee
+1 University of Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: serinlee@uw.edu
+Zelda B Zabinsky
+1 University of Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zelda@uw.edu
+Stephen M Kofsky
+2 UW Healthcare Analytics Lab
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: stephen.kofsky@outlook.com
+Shan Liu
+1 University of Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: liushan@uw.edu","Abstract
+As many federal and state governments are starting to ease restrictions on non-pharmaceutical interventions (NPIs) used to flatten the curve, we developed an agent-based simulation to model the incidence of COVID-19 in King County, WA under several scenarios. While NPIs were effective in flattening the curve, any relaxation of social distancing strategies yielded a second wave. Even if daily confirmed cases dropped to one digit, daily incidence can peak again to 874 cases without import cases. Therefore, policy makers should be very cautious in reopening society.",https://www.medrxiv.org/content/10.1101/2020.04.28.20080838v1.full.pdf
+3,Analysis of hospitalized COVID-19 patients in the Mount Sinai Health System using electronic medical records (EMR) reveals important prognostic factors for improved clinical outcomes,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20075788,"View ORCID Profile
+Zichen Wang, Amanda B Zheutlin,
+View ORCID Profile
+Yu-Han Kao, Kristin L Ayers,
+View ORCID Profile
+Susan J Gross, Patricia Kovatch, Sharon Nirenberg,
+View ORCID Profile
+Alexander W Charney, Girish N Nadkarni, Paul F O'Reilly,
+View ORCID Profile
+Allan C Just,
+View ORCID Profile
+Carol R Horowitz, Glenn Martin, Andrea D Branch,
+View ORCID Profile
+Benjamin S Glicksberg, Dennis S Charney, David L Reich, William K Oh, Eric E Schadt, Rong Chen,
+View ORCID Profile
+Li Li","Zichen Wang
+1 Sema4;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Zichen Wang
+For correspondence: zichen.wang@sema4.com
+Amanda B Zheutlin
+1 Sema4;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: amanda.zheutlin@sema4.com
+Yu-Han Kao
+1 Sema4;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Yu-Han Kao
+For correspondence: yu-han.kao@sema4.com
+Kristin L Ayers
+1 Sema4;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: kristin.ayers@sema4.com
+Susan J Gross
+2 Sema4; Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Susan J Gross
+For correspondence: susan.gross@sema4.com
+Patricia Kovatch
+3 Mount Sinai Data Warehouse, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: patricia.kovatch@mssm.edu
+Sharon Nirenberg
+3 Mount Sinai Data Warehouse, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sharon.nirenberg@mssm.edu
+Alexander W Charney
+4 Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, The Pamela Sklar Division of Psychiatric Genomics, The Department of Psychiatry, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Alexander W Charney
+For correspondence: alexander.charney@mssm.edu
+Girish N Nadkarni
+5 The Hasso Plattner Institute for Digital Health at the Mount Sinai, Department of Medicine, The Charles Bronfman Institute for Personalized Medicine, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: girish.nadkarni@mountsinai.org
+Paul F O'Reilly
+4 Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, The Pamela Sklar Division of Psychiatric Genomics, The Department of Psychiatry, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: paul.oreilly@mssm.edu
+Allan C Just
+6 Institute for Exposomic Research, Department of Environmental Medicine and Public Health, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Allan C Just
+For correspondence: allan.just@mssm.edu
+Carol R Horowitz
+7 Department of Medicine, Department of Environmental Medicine and Public Health, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Carol R Horowitz
+For correspondence: carol.horowitz@mountsinai.org
+Glenn Martin
+8 The Department of Psychiatry, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: glenn.martin@mssm.edu
+Andrea D Branch
+9 Department of Medicine, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: andrea.branch@mssm.edu
+Benjamin S Glicksberg
+10 Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, The Pamela Sklar Division of Psychiatric Genomics, The Hasso Plattner Institute for Digital Health, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Benjamin S Glicksberg
+For correspondence: benjamin.glicksberg@mssm.edu
+Dennis S Charney
+11 The Office of the Dean, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: dennis.charney@mssm.edu
+David L Reich
+12 Department of Anesthesiology, Perioperative and Pain Medicine, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: david.reich@mountsinai.org
+William K Oh
+13 Tisch Cancer Institute and Division of Hematology and Medical Oncology, Icahn School of Medicine at Mount Sinai
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: william.oh@mssm.edu
+Eric E Schadt
+2 Sema4; Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: eric.schadt@sema4.com
+Rong Chen
+2 Sema4; Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rong.chen@sema4.com
+Li Li
+2 Sema4; Department of Genetics and Genomic Sciences, The Icahn Institute for Genomics and Multiscale Biology, Icahn School of Medicine at Mount Sinai;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Li Li
+For correspondence: li.li@sema4.com","Abstract
+COVID-19 is a novel threat to human health worldwide. There is an urgent need to understand patient characteristics of having COVID-19 disease and evaluate markers of critical illness and mortality. Objective: To assess association of clinical features on patient outcomes. Design, Setting, and Participants: In this observational case series, patient-level data were extracted from electronic medical records for 28,336 patients tested for SARS-CoV-2 at the Mount Sinai Health System from 2/24/ to 4/15/2020, including 6,158 laboratory-confirmed cases. Exposures: Confirmed COVID-19 diagnosis by RT-PCR assay from nasal swabs. Main Outcomes and Measures: Effects of race on positive test rates and mortality were assessed. Among positive cases admitted to the hospital (N = 3,273), effects of patient demographics, hospital site and unit, social behavior, vital signs, lab results, and disease comorbidities on discharge and death were estimated. Results: Hispanics (29%) and African Americans (25%) had disproportionately high positive case rates relative to population base rates (p<2e-16); however, no differences in mortality rates were observed in the hospital. Outcome differed significantly between hospitals (Gray's T=248.9; p<2e-16), reflecting differences in average baseline age and underlying comorbidities. Significant risk factors for mortality included age (HR=1.05 [95% CI, 1.04-1.06]; p=1.15e-32), oxygen saturation (HR=0.985 [95% CI, 0.982-0.988]; p=1.57e-17), care in ICU areas (HR=1.58 [95% CI, 1.29-1.92]; p=7.81e-6), and elevated creatinine (HR=1.75 [95% CI, 1.47-2.10]; p=7.48e-10), alanine aminotransferase (ALT) (HR=1.002, [95% CI 1.001-1.003]; p=8.86e-5) and body-mass index (BMI) (HR=1.02, [95% CI 1.00-1.03]; p=1.09e-2). Asthma (HR=0.78 [95% CI, 0.62-0.98]; p=0.031) was significantly associated with increased length of hospital stay, but not mortality. Deceased patients were more likely to have elevated markers of inflammation. Baseline age, BMI, oxygen saturation, respiratory rate, white blood cell (WBC) count, creatinine, and ALT were significant prognostic indicators of mortality. Conclusions and Relevance: While race was associated with higher risk of infection, we did not find a racial disparity in inpatient mortality suggesting that outcomes in a single tertiary care health system are comparable across races. We identified clinical features associated with reduced mortality and discharge. These findings could help to identify which COVID-19 patients are at greatest risk and evaluate the impact on survival.",https://www.medrxiv.org/content/10.1101/2020.04.28.20075788v1.full.pdf
+4,Population vulnerability to COVID-19 in Europe: a burden of disease analysis,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20064279,"Grant MA Wyper, Ricardo MA Assuncao, Sarah Cuschieri, Brecht Devleeschauwer, Eilidh Fletcher, Juanita A Haagsma, Henk Hilderink, Jane Idavain, Tina Lesnik, Elena Von der Lippe, Marek Majdan, Milena S Milicevic, Elena Pallari, Jose L Penalvo, Sara M Pires, Dietrich Plass, Joao V Santos, Sofie T Thomsen, Diane L Stockton, Ian Grant","Grant MA Wyper
+1 Public Health Scotland, Scotland, United Kingdom;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: gwyper@nhs.net
+Ricardo MA Assuncao
+2 Food and Nutrition, National Institute of Health Dr. Ricardo Jorge, Lisboa, Portugal;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Sarah Cuschieri
+3 Department of Anatomy, Faculty of Medicine and Surgery, University of Malta, Msida, Malta;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Brecht Devleeschauwer
+4 Department of Epidemiology and Public Health, Sciensano, Brussels, Belgium;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Eilidh Fletcher
+1 Public Health Scotland, Scotland, United Kingdom;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Juanita A Haagsma
+5 Department of Public Health, Erasmus MC University Medical Center, Rotterdam, The Netherlands;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Henk Hilderink
+6 Centre for Public Health Forecasting, National Institute for Public Health and the Environment, Bilthoven, The Netherlands;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jane Idavain
+7 National Institute for Health Development, Hiiu, Tallinn, Estonia;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Tina Lesnik
+8 National Institute of Public Health, Ljubljana, Slovenia;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Elena Von der Lippe
+9 Department of Epidemiology and Health Monitoring, Robert Koch Institute, Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Marek Majdan
+10 Department of Public Health, Institute for Global Health and Epidemiology, Faculty of Health Sciences and Social Work, Trnava University, Trnava, Slovakia;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Milena S Milicevic
+11 Faculty of Medicine University of Belgrade, Serbia;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Elena Pallari
+12 Health Service and Population Research Department, King's College, London, United Kingdom;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Jose L Penalvo
+13 Unit of Noncommunicable Diseases, Department of Public Health, Institute of Tropical Medicine, Nationalestraat, Antwerp, Belgium;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Sara M Pires
+14 National Food Institute, Technical University of Denmark, Denmark;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Dietrich Plass
+15 Exposure Assessment and Environmental Health Indicators, German Environment Agency, Berlin, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Joao V Santos
+16 Department of Community Medicine, Information and Health Decision Sciences, Faculty of Medicine, University of Porto, Portugal
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Sofie T Thomsen
+14 National Food Institute, Technical University of Denmark, Denmark;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Diane L Stockton
+1 Public Health Scotland, Scotland, United Kingdom;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Ian Grant
+1 Public Health Scotland, Scotland, United Kingdom;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: ian.grant@nhs.net","Abstract
+Background: Evidence has emerged showing that elderly people and those with pre-existing chronic health conditions may be at higher risk of developing severe health consequences from COVID-19. In Europe, this is of particular relevance with ageing populations living with non-communicable diseases, multi-morbidity and frailty. Published estimates of Years Lived with Disability (YLD) from the Global Burden of Disease (GBD) study help to characterise the extent of these effects. Our aim was to identify the countries across Europe that have populations at highest risk from COVID-19 by using estimates of population age structure and YLD for health conditions linked to severe illness from COVID-19. Methods: Population and YLD estimates from GBD 2017 were extracted for 45 countries in Europe. YLD was restricted to a list of specific health conditions associated with being at risk of developing severe consequences from COVID-19 based on guidance from the United Kingdom Government. This guidance also identified individuals aged 70 years and above as being at higher risk of developing severe health consequences. Study outcomes were defined as: (i) proportion of population aged 70 years and above; and (ii) rate of YLD for COVID-19 for vulnerable health conditions across all ages. Bivariate groupings were established for each outcome and combined to establish overall population-level vulnerability. Results: Countries with the highest proportions of elderly residents were Italy, Greece, Germany, Portugal and Finland. When assessments of population-level YLD rates for COVID-19 vulnerable health conditions were made the highest rates were observed for Bulgaria, Czech Republic, Croatia, Hungary and Bosnia and Herzegovina. A bivariate analysis indicated that the countries at high-risk across both measures of vulnerability were: Bulgaria; Portugal; Latvia; Lithuania; Greece; Germany; Estonia; and Sweden. Conclusion: Routine estimates of population structures and non-fatal burden of disease measures can be usefully combined to create composite indicators of vulnerability for rapid assessments, in this case to severe health consequences from COVID-19. Countries with available results for sub-national regions within their country, or national burden of disease studies that also use sub-national levels for burden quantifications, should consider using non-fatal burden of disease estimates to estimate geographical vulnerability to COVID-19.",https://www.medrxiv.org/content/10.1101/2020.04.29.20064279v1.full.pdf
+5,"Balancing revenue generation with capacity generation: Case distribution, financial impact and hospital capacity changes from cancelling or resuming elective surgeries in the US during COVID-19","Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20066506,"View ORCID Profile
+JOSEPH E TONNA,
+View ORCID Profile
+Heidi A Hanson,
+View ORCID Profile
+Jessica N Cohan,
+View ORCID Profile
+Marta L McCrum,
+View ORCID Profile
+Joshua J Horns,
+View ORCID Profile
+Benjamin S Brooke, Rupam Das,
+View ORCID Profile
+Brenna C Kelly,
+View ORCID Profile
+Alexander J Campbell, Jim Hotaling","JOSEPH E TONNA
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for JOSEPH E TONNA
+For correspondence: joseph.tonna@hsc.utah.edu
+Heidi A Hanson
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Heidi A Hanson
+For correspondence: heidi.hanson@hci.utah.edu
+Jessica N Cohan
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Jessica N Cohan
+For correspondence: jessica.cohan@hsc.utah.edu
+Marta L McCrum
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Marta L McCrum
+For correspondence: marta.mccrum@hsc.utah.edu
+Joshua J Horns
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Joshua J Horns
+For correspondence: joshua.horns@hsc.utah.edu
+Benjamin S Brooke
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Benjamin S Brooke
+For correspondence: benjamin.brooke@hsc.utah.edu
+Rupam Das
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rupam.das@hsc.utah.edu
+Brenna C Kelly
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Brenna C Kelly
+For correspondence: brenna.kelly@hsc.utah.edu
+Alexander J Campbell
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Alexander J Campbell
+For correspondence: u1209855@utah.edu
+Jim Hotaling
+University of Utah
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jim.hotaling@hsc.utah.edu","Abstract
+Background: To increase bed capacity and resources, hospitals have postponed elective surgeries, although the financial impact of this decision is unknown. We sought to report elective surgical case distribution, associated gross hospital earnings and regional hospital and intensive care unit (ICU) bed capacity as elective surgical cases are cancelled and then resumed under simulated trends of COVID-19 incidence. Methods: A retrospective, cohort analysis was performed using insurance claims from 161 million enrollees from the MarketScan database from January 1, 2008 to December 31, 2017. COVID-19 cases were calculated using a generalized Richards model. Centers for Disease Control (CDC) reports on the number of hospitalized and intensive care patients by age were used to estimate the number of cases seen in the ICU, the reduction in elective surgeries and the financial impact of this from historic claims data, using a denominator of all inpatient revenue and outpatient surgeries. Results: Assuming 5% infection prevalence, cancelling all elective procedures decreases ICU overcapacity from 340% to 270%, but these elective surgical cases contribute 78% (IQR 74, 80) (1.1 trillion (T) US dollars) to inpatient hospital plus outpatient surgical gross earnings per year. Musculoskeletal, circulatory and digestive category elective surgical cases compose 33% ($447B) of total revenue. Conclusions: Procedures involving the musculoskeletal, cardiovascular and digestive system account for the largest loss of hospital gross earnings when elective surgery is postponed. As hospital bed capacity increases following the COVID-19 pandemic, restoring volume of these elective cases will help maintain revenue.",https://www.medrxiv.org/content/10.1101/2020.04.29.20066506v1.full.pdf
+6,Predicted impact of the COVID-19 pandemic on global tuberculosis deaths in 2020,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20079582,"View ORCID Profile
+Philippe Glaziou","Philippe Glaziou
+World Health Organization
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Philippe Glaziou
+For correspondence: glazioup@who.int","Abstract
+Policies widely adopted in response to the ongoing pandemic of Covid-19, particularly lockdowns and reassignments of health personnel and equipment, are impacting the performance of TB prevention and care programmes at a level varying significantly between countries. Estimates of the impact of reductions in the performance of global TB detection and care on TB mortality over 2020 are presented.",https://www.medrxiv.org/content/10.1101/2020.04.28.20079582v1.full.pdf
+7,"AKI during COVID-19 infection: low incidence, high risk of death","Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20079038,"Zhixiang Mou, Xu Zhang","Zhixiang Mou
+1 Faculty of Medicine, RWTH Aachen University;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: 51sea@163.com
+Xu Zhang
+2 Department of Nephrology, The First Affiliated Hospital of Dalian Medical University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: zhangxu906@dmu.edu.cn","Abstract
+Background: Coronavirus disease 2019 (COVID-19) has spread rapidly worldwide and seriously threatens human health since December 2019. However, information about acute kidney injury (AKI) during COVID-19 infection is limited. Some studies thought that presence of AKI is very common and cannot be ignored, while some studies pointed that AKI only is a rare incident during COVID-19 infection. This meta-analysis aimed to find out the truth of COVID-19 related AKI and to provide stronger evidence. Methods: Two authors independently performed a literature search using PubMed, Web of Science, Embase, and Cochrane Library fulfilled the pre-specified criteria until April 25, 2020 to include studies reported the necessary clinic characteristics, then the incidence of AKI, incidence of required RRT, the mortality with AKI and the death risk with AKI during COVID-19 infection were pooled for statistical analysis by Open Meta-Analyst software to get conclusions. Findings: It was found that the incidence of AKI in hospitalized patients with COVID-19 infection is low, only about 3.8%; the in-hospital mortality with AKI in COVID-19 infected patients is reach up to 32.6%; the death risk with AKI in COVID-19 infected patients is about 16.1 times higher than those without AKI. Conclusions: This meta-analysis indicated AKI during COVID-19 infection should be pay more attention, it maybe a strong red flag to death risk. It is still need additional studies to support the conclusions and to explore the AKI mechanism during COVID-19 infection.",https://www.medrxiv.org/content/10.1101/2020.04.29.20079038v1.full.pdf
+8,Negative impact of hyperglycemia on Tocilizumab therapy in COVID-19 patients,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.29.20076570,"Raffaele Marfella, Pasquale Paolisso, Celestino Sardu, Luca Bergamaschi, Emanuela Concetta D' Angelo, Michelangela Barbieri, Maria Rosaria Rizzo, Vincenzo Messina, Paolo Maggi, Nicola Coppola, Carmine Pizzi, Maurizio Biffi, Pier Luigi Viale, Nazzareno Galie, Giuseppe Paolisso","Raffaele Marfella
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Pasquale Paolisso
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Celestino Sardu
+3 University of Campania ""Luigi Vanvitelli""
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: drsarducele@gmail.com
+Luca Bergamaschi
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Emanuela Concetta D' Angelo
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Michelangela Barbieri
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Maria Rosaria Rizzo
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Vincenzo Messina
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Paolo Maggi
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Nicola Coppola
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Carmine Pizzi
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Maurizio Biffi
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Pier Luigi Viale
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Nazzareno Galie
+2 University of Bologna;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+Giuseppe Paolisso
+1 University of Campania;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site","Abstract
+Tocilizumab is used for treating moderate-severe Covid-19 pneumonia by targeting IL-6 receptors (IL-6R) and reducing cytokine release, but the pooled rate ratio among diabetic patients with adverse vs those with the more favorable course was 2.26. To date, the hyperglycemia has been shown to increase IL-6 and IL-6R, which has been suggested as a severity predictor in lung diseases of Covid-19 patients. However, there are no data about the effects of tocilizumab therapy on outcomes of hyperglycemic Covid-19 patients with pneumonia. To investigate this unsolved need, 475 Covid-19 positive patients were retrospectively studied since March 1st, 2020. Among them, 78 patients with pneumonia disease and treated with tocilizumab were further evaluated for a severe outcome (encompassing both the use of mechanical ventilation and/or death). Thirty-one (39.7%) hyperglycemic and 47 (60.3%) normoglycemic Covid-19 positive patients (blood glucose levels >140 mg/dl, at admission and/or during hospital stay) were evaluated. Noteworthy, 20 (64%) of hyperglycemic and 11 (23.4%) of normoglycemic patients were also diabetics (P<0.01). At admission, more elevated IL-6 levels in hyperglycemic patients were found and persists even after Tocilizumab administration. In a risk adjusted Cox-regression analysis, Tocilizumab in hyperglycemic did not attenuate the risks of severe outcome as did in normoglycemic patients (p<0.009). Therefore, we could conclude that reduced effects of Tocilizumab in hyperglycemic patients may due to the higher plasma IL-6 levels. Interestingly, when we added IL-6 levels in a Cox regression model the significance for the tocilizumab effect was lost (p<0.07). In this context, our observations evidence that optimal Covid-19 infection management with tocilizumab is not achieved during hyperglycemia both in diabetic and non-diabetic patients.",https://www.medrxiv.org/content/10.1101/2020.04.29.20076570v1.full.pdf
+9,Sensitivity assessment of SARS-CoV-2 PCR assays developed by WHO referral laboratories,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.05.03.20072207,"Sibyle Etievant, Antonin Bal, Vanessa Escurret, Karen Brengel-Pesce, Maude Bouscambert, Valerie Cheynet, Laurence Generenaz, Guy Oriol, Gregory Destras, Genevieve Billaud, Laurence Josset, Emilie Frobert, Florence Morfin, Alexandre Gaymard","Sibyle Etievant
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: sibyle.etievant@chu-lyon.fr
+Antonin Bal
+2 Hospices civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: antoninbal@gmail.com
+Vanessa Escurret
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: vanessa.escuret@chu-lyon.fr
+Karen Brengel-Pesce
+3 bioMerieux
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: karen.brengel-pesce@biomerieux.com
+Maude Bouscambert
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: maude.bouscambert-duchamp@chu-lyon.fr
+Valerie Cheynet
+3 bioMerieux
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: valerie.cheynet@biomerieux.com
+Laurence Generenaz
+3 bioMerieux
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: laurence.generenaz@biomerieux.com
+Guy Oriol
+3 bioMerieux
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: guy.oriol@biomerieux.com
+Gregory Destras
+2 Hospices civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: gregory.destras@chu-lyon.fr
+Genevieve Billaud
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: genevieve.billaud@chu-lyon.fr
+Laurence Josset
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: laurence.josset@chu-lyon.fr
+Emilie Frobert
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: emilie.frobert@chu-lyon.fr
+Florence Morfin
+1 Hospices Civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: florence.morfin-sherpa@chu-lyon.fr
+Alexandre Gaymard
+2 Hospices civils de Lyon;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: alexandre.gaymard@chu-lyon.fr","Abstract
+The sensitivity of SARS-CoV-2 RT-PCR tests developed by Charite (Germany), HKU (Hong-Kong), China CDC (China), US CDC (United-States), and Institut Pasteur, Paris (France) was assessed on SARS-CoV-2 cell culture supernatants and clinical samples. Although all RT-PCR assays performed well for SARS-CoV-2 detection, RdRp Institut Pasteur (IP2, IP4), N China CDC, and N1 US CDC were found to be the most sensitive.",https://www.medrxiv.org/content/10.1101/2020.05.03.20072207v1.full.pdf
+0,A simulation-based procedure to estimate base rates from Covid-19 antibody test results I: Deterministic test reliabilities,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20075036,"Reinoud Joosten,
+View ORCID Profile
+Abhishta Abhishta","Reinoud Joosten
+University of Twente
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: r.a.m.g.joosten@utwente.nl
+Abhishta Abhishta
+University of Twente
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Abhishta Abhishta
+For correspondence: s.abhishta@utwente.nl","Abstract
+We design a procedure (the complete Python code may be obtained at: https://github.com/abhishta91/antibody\_montecarlo) using Monte Carlo (MC) simulation to establish the point estimators described below and confidence intervals for the base rate of occurrence of an attribute (e.g., antibodies against Covid-19) in an aggregate population (e.g., medical care workers) based on a test. The requirements for the procedure are the test's sample size (N) and total number of positives (X), and the data on test's reliability. The modus is the prior which generates the largest frequency of observations in the MC simulation with precisely the number of test positives (maximum-likelihood estimator). The median is the upper bound of the set of priors accounting for half of the total relevant observations in the MC simulation with numbers of positives identical to the test's number of positives. Our rather preliminary findings are: The median and the confidence intervals suffice universally; The estimator X/N may be outside of the two-sided 95% confidence interval; Conditions such that the modus, the median and another promising estimator which takes the reliability of the test into account, are quite close; Conditions such that the modus and the latter estimator must be regarded as logically inconsistent; Conditions inducing rankings among various estimators relevant for issues concerning over- or underestimation.",https://www.medrxiv.org/content/10.1101/2020.04.28.20075036v1.full.pdf
+1,"Commercial stocks of SARS-CoV-2 RNA may report low concentration values, leading to artificially increased apparent sensitivity of diagnostic assays","Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20077602,"View ORCID Profile
+Erik Jue,
+View ORCID Profile
+Rustem F. Ismagilov","Erik Jue
+California Institute of Technology
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Erik Jue
+For correspondence: ejue@caltech.edu
+Rustem F. Ismagilov
+California Institute of Technology
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Rustem F. Ismagilov
+For correspondence: rustem.admin@caltech.edu","Abstract
+In response to the rapidly evolving COVID-19 pandemic, the U.S. Food and Drug Administration (FDA) has rapidly issued 49 emergency use authorizations (EUAs) for SARS-CoV-2 in vitro diagnostic test-kits. A critical metric in the performance evaluation for a diagnostic test kit is the analytical sensitivity, which is measured by the limit of detection (LOD). Commercial RNA stocks with known titers are used to determine LOD. We identified a problem with the titer reported for the commercial stocks when examining the analytical sensitivity of the reverse transcription quantitative PCR (RT-qPCR) protocol that is recommended by the Centers for Disease Control and Prevention (CDC) using plasmid DNA from Integrated DNA Technologies (IDT), synthetic RNA from BEI Resources (BEI), and extracted genomic RNA from BEI. We detected 3/3 positives for reactions containing synthetic RNA at a concentration of 0.1 copies/reaction (based on the supplier's label concentration). The apparent better-than-single-molecule performance is a statistically highly unlikely event, indicating a potential inaccuracy in the supplier's quantification of the stock material. Using an ultrasensitive and precise assay, reverse transcription digital PCR (RT-dPCR), we independently quantified concentrations of commercial SARS-CoV-2 plasmid DNA and SARS-CoV-2 RNA stocks. For plasmid DNA, the actual concentration measured by RT-dPCR was 11% of the nominal label concentration. For synthetic RNA, the actual concentration measured by RT-dPCR for one lot was 770% of the label concentration and for a different lot was 57% of the label concentration. For genomic RNA, the concentration measured by RT-dPCR for one lot was 240% of the label concentration and for a different lot it was 300% of the label concentration. This SARS-CoV-2 genomic RNA from BEI Resources has been used in at least 11 approved FDA Emergency Use Authorizations as of April 27, 2020. Such deviations of reported RNA or DNA stock concentrations from true concentrations can result in inaccurate quantification and calculation of LOD. Precise and accurate reporting of DNA and RNA stock concentrations by commercial suppliers will enable accurate quantification of assay performance, which is urgently needed to improve evaluation of different assays by diagnostic developers and regulatory bodies.",https://www.medrxiv.org/content/10.1101/2020.04.28.20077602v1.full.pdf
+2,Detection of SARS-CoV-2 in Human Breast Milk,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20075523,"Rüdiger Groß, Carina Conzelmann, Janis Müller, Steffen Stenger, Karin Steinhart, Frank Kirchhoff, Jan Münch","Rüdiger Groß
+1 Institute of Molecular Virology, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: ruediger.gross@uni-ulm.de
+Carina Conzelmann
+1 Institute of Molecular Virology, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: carina.conzelmann@uni-ulm.de
+Janis Müller
+1 Institute of Molecular Virology, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: janis.mueller@uni-ulm.de
+Steffen Stenger
+2 Institute for Microbiology and Hygiene, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: steffen.stenger@uniklinik-ulm.de
+Karin Steinhart
+3 Administrative District Heidenheim, Public Health Office, Heidenheim, Germany
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: k.steinhart@landkreis-heidenheim.de
+Frank Kirchhoff
+1 Institute of Molecular Virology, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: frank.kirchhoff@uni-ulm.de
+Jan Münch
+1 Institute of Molecular Virology, Ulm University Medical Center, Ulm, Germany;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: jan.muench@uni-ulm.de","Abstract
+SARS-CoV-2 (CoV-2) is mainly transmitted in the human population during close contact and respiratory droplets. It is currently unclear, however, whether CoV-2 is shed into milk and may also be transmitted from infected mothers to newborns trough breast feeding. Two recent reviews on the topic (1,2) did not find evidence for CoV-2 in human milk. However, the number of breast milk samples analyzed so far is small and samples were taken only once from each mother (2).",https://www.medrxiv.org/content/10.1101/2020.04.28.20075523v1.full.pdf
+3,Evaluation of Turkish social distancing measures on the spread of COVID-19,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20083550,"View ORCID Profile
+irfan civcir","irfan civcir
+Ankara University
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for irfan civcir
+For correspondence: irfancivcir@gmail.com","Abstract
+The coronavirus disease (COVID-19) affecting across the globe. The government of different countries has adopted various policies to contain this epidemic and the most common were social distancing and lockdown. We use a simple log-linear model with intercept and trend break to evaluate whether the measures are effective preventing/slowing down the spread of the disease in Turkey. We estimate the model parameters from the Johns Hopkins University (2020) epidemic data between 15th March and 16th April 2020. Our analysis revealed that the measures can slow down the outbreak. We can reduce the epidemic size and prolong the time to arrive at the epidemic peak by seriously following the measures suggested by the authorities.",https://www.medrxiv.org/content/10.1101/2020.04.28.20083550v1.full.pdf
+4,Periodic COVID-19 Testing in Emergency Department Staff,"Posted May 04, 2020.",doi: https://doi.org/10.1101/2020.04.28.20084053,"View ORCID Profile
+Yuemei Zhang, Sheng-Ru Cheng","Yuemei Zhang
+1 University of Washington;
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+ORCID record for Yuemei Zhang
+For correspondence: yuemei.a.zhang@gmail.com
+Sheng-Ru Cheng
+2 University of Illinois at Urbana-Champaign
+Find this author on Google Scholar
+Find this author on PubMed
+Search for this author on this site
+For correspondence: rsrcheng9@gmail.com","Abstract
+Background: As the number of COVID-19 cases in the US continues to rise and hospitals are experiencing personal protective equipment (PPE) shortages, healthcare workers have been disproportionately affected by COVID-19 infection. Since COVID-19 testing is now available, some have raised the question of whether we should be routinely testing asymptomatic healthcare workers. Methods: Using publicly available data on COVID-19 infections and emergency department visits, as well as internal hospital staffing information, we generated a mathematical model to predict the impact of periodic COVID-19 testing in asymptomatic members of the emergency department staff in regions affected by COVID-19 infection. We calculated various transmission constants based on the Diamond Princess cruise ship data, used a logistic model to calculate new infections, and we created a Markov model according to average COVID-19 incubation time. Results: Our model predicts that after 30 days, with a transmission constant of 1.219e-4 new infections per person2, weekly COVID-19 testing of healthcare workers (HCW) would reduce new HCW and patient infections by 5.1% and bi-weekly testing would reduce both by 2.3%. At a transmission constant of 3.660e-4 new infections per person,2 weekly testing would reduce infections by 21.1% and bi-weekly testing would reduce infections by 9.7-9.8%. For a lower transmission constant of 4.067e-5 new infections per person2, weekly and biweekly HCW testing would result in a 1.54% and 0.7% reduction in infections respectively. Conclusion: Periodic COVID-19 testing for emergency department staff in regions that are heavily-affected by COVID-19 and/or facing resource constraints may reduce COVID-19 transmission significantly among healthcare workers and previously-uninfected patients.",https://www.medrxiv.org/content/10.1101/2020.04.28.20084053v1.full.pdf
